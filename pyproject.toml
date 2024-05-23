@@ -18,6 +18,7 @@ classifiers = [
 
 dependencies = [
     "requests",
+    "opencv-contrib-python",
 ]
 
 [project.urls]
