@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dustycam"
+version = "0.0.1"
+authors = [
+  { name="OwlMoshPit", email="owlmoshpit@proton.me" },
+]
+description = "A smart camera for the people by the people."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+dependencies = [
+    "requests",
+]
+
+[project.urls]
+Homepage = "https://www.dustycam.com"
+
+
+[project.optional-dependencies]
+pi = [
+
+    ]
+
+dev = [
+    ]
+
+[project.entry-points.console_scripts]
+dustycam = "dustycam.commands:run"
+
