@@ -38,6 +38,7 @@ Then add this line to the bottom of the file.
 ```
 
 ## Run DustyCam
+
 ```bash
 dustycam
 ```
