@@ -26,6 +26,15 @@ source env/bin/activate
 
 pip install -e .
 
+## Setup pi to take photos when there is motion.
+
+```
+crontab -e
+```
+Then add this line to the bottom of the file.
+
+```
+@reload  /home/dusty/env/bin/python /home/dusty/dustycam/dustycam/test_motion.py
 ```
 
 ## Run DustyCam
