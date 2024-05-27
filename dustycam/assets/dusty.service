@@ -1,0 +1,14 @@
+[Unit]
+Description=Dusty Camera
+After=network.target
+
+[Service]
+ExecStart=/opt/dusty/env/bin/python /home/dusty/dustycam/test_motion.py
+WorkingDirectory=/home/dusty
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=dusty
+
+[Install]
+WantedBy=multi-user.target

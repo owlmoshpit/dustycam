@@ -3,10 +3,13 @@ import cv2
 import time
 import datetime
 from picamera2 import Picamera2, Preview
+import libcamera
 
 def detect_motion(picam2, low_res_config, high_res_config, action):
     # Initialize the camera with low resolution configuration
     picam2.configure(low_res_config)
+    #picam2.controls.set_controls( { "AfMode" : libcamera.controls.AfModeEnum.Continuous, "AfMetering" : libcamera.controls.AfMeteringEnum.Windows,  "AfWindows" : [ (768,432,1536,864) ] } )
+
     picam2.start()
 
     # Capture the first frame
@@ -76,11 +79,18 @@ low_res_config = picam2.preview_configuration
 low_res_config.main.size = (320, 240)
 low_res_config.main.format = "RGB888"
 low_res_config.controls.FrameRate = 30
+low_res_config.controls.AfMode = libcamera.controls.AfModeEnum.Manual
+low_res_config.controls.LensPosition = 0.0
+
+#low_res.controls.set_controls( { "AfMode" : libcamera.controls.AfModeEnum.Continuous, "AfMetering" : libcamera.controls.AfMeteringEnum.Windows,  "AfWindows" : [ (768,432,1536,864) ] } )
+print(f"\n\n-Camera 'controls' before start recording: {low_res_config.controls}")
 
 # Configure high resolution for capturing images
 high_res_config = picam2.still_configuration
 high_res_config.main.size = (4608, 2592)  # Adjust the resolution as needed
 high_res_config.main.format = "RGB888"
+high_res_config.controls.AfMode = libcamera.controls.AfModeEnum.Manual
+high_res_config.controls.LensPosition = 0.0
 
 # Start motion detection
 detect_motion(picam2, low_res_config, high_res_config, take_high_res_image)
