@@ -13,33 +13,13 @@ Here's what you need to get started.
 
 ## Install On Your Pi
 
-First, clone the repository.
-```bash
-git clone https://github.com/owlmoshpit/dustycam
-cd dustycam
-```
+See the install.sh script.
 
-Create a virtual environment and install the package.
-```bash
-python3 -m venv env
-source env/bin/activate
+## Add system service: Setup pi to take photos when there is motion.
 
-pip install -e .
-```
+See install-service.sh
 
-## Setup pi to take photos when there is motion.
 
-```
-crontab -e
-```
-Then add this line to the bottom of the file.
+## Tips
 
-```
-@reload  /home/dusty/env/bin/python /home/dusty/dustycam/dustycam/test_motion.py
-```
-
-## Run DustyCam
-
-```bash
-dustycam
-```
+* activate your virtual environment when bash starts: add this `source /opt/dusty/env/bin/activate` to the end of your `~/.bashrc` file. 
