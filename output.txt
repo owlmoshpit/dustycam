@@ -1,0 +1,1079 @@
+[0:24:27.389616176] [6904] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+120-eb00c13d
+[0:24:27.397749532] [6919] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.5 999da5acb4f4 17-04-2024 (14:29:29)
+[0:24:27.408317335] [6919] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@80000/imx708@1a to CFE device /dev/media1 and ISP device /dev/media0 using PiSP variant BCM2712_C0
+[0:24:27.410395780] [6904] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+120-eb00c13d
+[0:24:27.420027916] [6922] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.5 999da5acb4f4 17-04-2024 (14:29:29)
+[0:24:27.433223590] [6922] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@80000/imx708@1a to CFE device /dev/media1 and ISP device /dev/media0 using PiSP variant BCM2712_C0
+[0:24:27.436258999] [6904] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
+[0:24:27.437232907] [6904] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 640x480-XBGR8888 (1) 1536x864-BGGR_PISP_COMP1
+[0:24:27.437367722] [6922] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@80000/imx708@1a - Selected sensor format: 1536x864-SBGGR10_1X10 - Selected CFE format: 1536x864-PC1B
+Traceback (most recent call last):
+  File "/opt/dusty/dustycam/dustycam/test_cam_config.py", line 79, in update_frame
+    def update_frame(self):
+
+KeyboardInterrupt
+5-27 16:03:55,942 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:56,061 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:56,132 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:56,226 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:56,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:56,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:56,523 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:56,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:56,720 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:56,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:56,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:57,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:57,123 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:57,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:57,320 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:57,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:57,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:57,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:57,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:57,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:57,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:58,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:58,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:58,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:58,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:58,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:58,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:58,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:58,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:58,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:58,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:59,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:59,120 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:59,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:59,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:59,429 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:59,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:59,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:59,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:59,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:03:59,920 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:00,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:00,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:00,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:00,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:00,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:00,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:00,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:00,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:00,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:00,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:01,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:01,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:01,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:01,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:01,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:01,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:01,626 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:01,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:01,806 - INFO - Lens Position: 1.0
+2024-05-27 16:04:01,899 - INFO - Lens Position: 1.0
+2024-05-27 16:04:01,984 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:02,011 - INFO - Lens Position: 0.5
+2024-05-27 16:04:02,089 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:02,195 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:02,299 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:02,408 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:02,509 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:02,616 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:02,719 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:02,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:02,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:03,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:03,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:03,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:03,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:03,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:03,523 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:03,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:03,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:03,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:03,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:04,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:04,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:04,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:04,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:04,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:04,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:04,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:04,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:04,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:04,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:05,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:05,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:05,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:05,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:05,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:05,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:05,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:05,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:05,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:05,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:06,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:06,037 - INFO - Lens Position: 0.6000000238418579
+2024-05-27 16:04:06,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:06,197 - INFO - Lens Position: 0.699999988079071
+2024-05-27 16:04:06,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:06,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:06,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:06,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:06,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:06,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:06,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:06,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:07,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:07,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:07,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:07,233 - INFO - Lens Position: 0.6000000238418579
+2024-05-27 16:04:07,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:07,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:07,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:07,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:07,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:07,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:07,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:08,024 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:08,120 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:08,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:08,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:08,383 - INFO - Lens Position: 0.5
+2024-05-27 16:04:08,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:08,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:08,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:08,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:08,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:08,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:09,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:09,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:09,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:09,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:09,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:09,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:09,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:09,662 - INFO - Lens Position: 0.4000000059604645
+2024-05-27 16:04:09,720 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:09,820 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:09,863 - INFO - Lens Position: 0.30000001192092896
+2024-05-27 16:04:09,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:10,014 - INFO - Lens Position: 0.20000000298023224
+2024-05-27 16:04:10,039 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:10,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:10,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:10,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:10,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:10,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:10,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:10,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:10,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:10,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:11,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:11,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:11,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:11,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:11,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:11,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:11,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:11,646 - INFO - Lens Position: 0.10000000149011612
+2024-05-27 16:04:11,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:11,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:11,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:12,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:12,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:12,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:12,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:12,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:12,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:12,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:12,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:12,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:12,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:13,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:13,123 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:13,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:13,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:13,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:13,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:13,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:13,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:13,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:13,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:14,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:14,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:14,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:14,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:14,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:14,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:14,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:14,723 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:14,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:14,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:15,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:15,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:15,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:15,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:15,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:15,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:15,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:15,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:15,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:15,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:16,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:16,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:16,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:16,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:16,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:16,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:16,623 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:16,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:16,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:16,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:17,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:17,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:17,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:17,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:17,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:17,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:17,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:17,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:17,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:17,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:18,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:18,120 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:18,223 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:18,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:18,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:18,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:18,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:18,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:18,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:18,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:19,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:19,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:19,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:19,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:19,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:19,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:19,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:19,720 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:19,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:19,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:20,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:20,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:20,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:20,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:20,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:20,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:20,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:20,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:20,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:20,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:21,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:21,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:21,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:21,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:21,423 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:21,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:21,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:21,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:21,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:21,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:22,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:22,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:22,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:22,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:22,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:22,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:22,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:22,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:22,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:22,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:23,023 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:23,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:23,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:23,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:23,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:23,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:23,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:23,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:23,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:23,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:24,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:24,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:24,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:24,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:24,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:24,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:24,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:24,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:24,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:24,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:25,023 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:25,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:25,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:25,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:25,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:25,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:25,623 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:25,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:25,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:25,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:26,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:26,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:26,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:26,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:26,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:26,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:26,623 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:26,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:26,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:26,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:27,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:27,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:27,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:27,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:27,425 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:27,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:27,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:27,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:27,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:27,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:28,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:28,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:28,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:28,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:28,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:28,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:28,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:28,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:28,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:28,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:29,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:29,124 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:29,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:29,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:29,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:29,523 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:29,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:29,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:29,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:29,923 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:30,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:30,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:30,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:30,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:30,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:30,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:30,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:30,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:30,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:30,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:31,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:31,126 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:31,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:31,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:31,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:31,523 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:31,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:31,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:31,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:31,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:32,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:32,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:32,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:32,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:32,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:32,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:32,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:32,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:32,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:32,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:33,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:33,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:33,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:33,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:33,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:33,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:33,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:33,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:33,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:33,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:34,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:34,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:34,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:34,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:34,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:34,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:34,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:34,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:34,823 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:34,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:35,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:35,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:35,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:35,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:35,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:35,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:35,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:35,723 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:35,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:35,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:36,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:36,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:36,223 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:36,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:36,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:36,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:36,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:36,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:36,823 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:36,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:37,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:37,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:37,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:37,323 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:37,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:37,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:37,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:37,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:37,823 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:37,923 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:38,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:38,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:38,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:38,325 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:38,423 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:38,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:38,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:38,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:38,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:38,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:39,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:39,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:39,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:39,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:39,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:39,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:39,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:39,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:39,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:39,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:40,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:40,123 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:40,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:40,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:40,420 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:40,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:40,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:40,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:40,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:40,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:41,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:41,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:41,223 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:41,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:41,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:41,520 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:41,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:41,723 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:41,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:41,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:42,020 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:42,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:42,223 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:42,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:42,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:42,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:42,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:42,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:42,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:42,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:43,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:43,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:43,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:43,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:43,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:43,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:43,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:43,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:43,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:43,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:44,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:44,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:44,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:44,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:44,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:44,523 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:44,623 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:44,723 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:44,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:44,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:45,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:45,123 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:45,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:45,323 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:45,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:45,530 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:45,623 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:45,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:45,824 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:45,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:46,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:46,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:46,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:46,323 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:46,423 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:46,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:46,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:46,724 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:46,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:46,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:47,008 - INFO - Lens Position: 0.0
+2024-05-27 16:04:47,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:47,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:47,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:47,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:47,408 - INFO - Lens Position: 0.10000000149011612
+2024-05-27 16:04:47,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:47,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:47,592 - INFO - Lens Position: 0.20000000298023224
+2024-05-27 16:04:47,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:47,648 - INFO - Lens Position: 0.30000001192092896
+2024-05-27 16:04:47,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:47,752 - INFO - Lens Position: 0.4000000059604645
+2024-05-27 16:04:47,820 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:47,829 - INFO - Lens Position: 0.5
+2024-05-27 16:04:47,888 - INFO - Lens Position: 0.6000000238418579
+2024-05-27 16:04:47,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:48,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:48,033 - INFO - Lens Position: 0.699999988079071
+2024-05-27 16:04:48,120 - INFO - Lens Position: 0.800000011920929
+2024-05-27 16:04:48,135 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:48,202 - INFO - Lens Position: 0.8999999761581421
+2024-05-27 16:04:48,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:48,248 - INFO - Lens Position: 1.0
+2024-05-27 16:04:48,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:48,369 - INFO - Lens Position: 1.100000023841858
+2024-05-27 16:04:48,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:48,481 - INFO - Lens Position: 1.2000000476837158
+2024-05-27 16:04:48,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:48,553 - INFO - Lens Position: 1.2999999523162842
+2024-05-27 16:04:48,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:48,665 - INFO - Lens Position: 1.399999976158142
+2024-05-27 16:04:48,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:48,793 - INFO - Lens Position: 1.5
+2024-05-27 16:04:48,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:48,897 - INFO - Lens Position: 1.600000023841858
+2024-05-27 16:04:48,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:49,033 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:49,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:49,136 - INFO - Lens Position: 1.7000000476837158
+2024-05-27 16:04:49,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:49,257 - INFO - Lens Position: 1.7999999523162842
+2024-05-27 16:04:49,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:49,345 - INFO - Lens Position: 1.899999976158142
+2024-05-27 16:04:49,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:49,443 - INFO - Lens Position: 2.0
+2024-05-27 16:04:49,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:49,529 - INFO - Lens Position: 2.0999999046325684
+2024-05-27 16:04:49,581 - INFO - Lens Position: 2.200000047683716
+2024-05-27 16:04:49,601 - INFO - Lens Position: 2.200000047683716
+2024-05-27 16:04:49,623 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:49,632 - INFO - Lens Position: 2.299999952316284
+2024-05-27 16:04:49,676 - INFO - Lens Position: 2.5
+2024-05-27 16:04:49,697 - INFO - Lens Position: 2.5
+2024-05-27 16:04:49,721 - INFO - Lens Position: 2.5999999046325684
+2024-05-27 16:04:49,737 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:49,741 - INFO - Lens Position: 2.700000047683716
+2024-05-27 16:04:49,771 - INFO - Lens Position: 2.799999952316284
+2024-05-27 16:04:49,794 - INFO - Lens Position: 2.9000000953674316
+2024-05-27 16:04:49,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:49,833 - INFO - Lens Position: 3.0999999046325684
+2024-05-27 16:04:49,851 - INFO - Lens Position: 3.0999999046325684
+2024-05-27 16:04:49,872 - INFO - Lens Position: 3.299999952316284
+2024-05-27 16:04:49,892 - INFO - Lens Position: 3.4000000953674316
+2024-05-27 16:04:49,925 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:49,937 - INFO - Lens Position: 3.5999999046325684
+2024-05-27 16:04:49,985 - INFO - Lens Position: 3.700000047683716
+2024-05-27 16:04:50,010 - INFO - Lens Position: 3.700000047683716
+2024-05-27 16:04:50,029 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:50,042 - INFO - Lens Position: 3.9000000953674316
+2024-05-27 16:04:50,059 - INFO - Lens Position: 3.9000000953674316
+2024-05-27 16:04:50,083 - INFO - Lens Position: 4.0
+2024-05-27 16:04:50,105 - INFO - Lens Position: 4.099999904632568
+2024-05-27 16:04:50,125 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:50,131 - INFO - Lens Position: 4.199999809265137
+2024-05-27 16:04:50,161 - INFO - Lens Position: 4.400000095367432
+2024-05-27 16:04:50,200 - INFO - Lens Position: 4.5
+2024-05-27 16:04:50,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:50,233 - INFO - Lens Position: 4.599999904632568
+2024-05-27 16:04:50,272 - INFO - Lens Position: 4.699999809265137
+2024-05-27 16:04:50,304 - INFO - Lens Position: 4.800000190734863
+2024-05-27 16:04:50,323 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:50,339 - INFO - Lens Position: 4.900000095367432
+2024-05-27 16:04:50,377 - INFO - Lens Position: 5.0
+2024-05-27 16:04:50,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:50,442 - INFO - Lens Position: 5.099999904632568
+2024-05-27 16:04:50,480 - INFO - Lens Position: 5.199999809265137
+2024-05-27 16:04:50,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:50,529 - INFO - Lens Position: 5.300000190734863
+2024-05-27 16:04:50,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:50,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:50,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:50,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:51,016 - INFO - Lens Position: 5.400000095367432
+2024-05-27 16:04:51,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:51,041 - INFO - Lens Position: 5.400000095367432
+2024-05-27 16:04:51,065 - INFO - Lens Position: 5.300000190734863
+2024-05-27 16:04:51,081 - INFO - Lens Position: 5.199999809265137
+2024-05-27 16:04:51,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:51,130 - INFO - Lens Position: 5.0
+2024-05-27 16:04:51,169 - INFO - Lens Position: 4.900000095367432
+2024-05-27 16:04:51,201 - INFO - Lens Position: 4.800000190734863
+2024-05-27 16:04:51,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:51,233 - INFO - Lens Position: 4.800000190734863
+2024-05-27 16:04:51,248 - INFO - Lens Position: 4.699999809265137
+2024-05-27 16:04:51,280 - INFO - Lens Position: 4.5
+2024-05-27 16:04:51,313 - INFO - Lens Position: 4.400000095367432
+2024-05-27 16:04:51,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:51,361 - INFO - Lens Position: 4.300000190734863
+2024-05-27 16:04:51,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:51,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:51,552 - INFO - Lens Position: 4.199999809265137
+2024-05-27 16:04:51,585 - INFO - Lens Position: 4.099999904632568
+2024-05-27 16:04:51,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:51,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:51,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:51,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:52,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:52,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:52,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:52,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:52,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:52,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:52,584 - INFO - Lens Position: 4.0
+2024-05-27 16:04:52,608 - INFO - Lens Position: 4.0
+2024-05-27 16:04:52,619 - INFO - Lens Position: 3.9000000953674316
+2024-05-27 16:04:52,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:52,635 - INFO - Lens Position: 3.9000000953674316
+2024-05-27 16:04:52,639 - INFO - Lens Position: 3.799999952316284
+2024-05-27 16:04:52,651 - INFO - Lens Position: 3.700000047683716
+2024-05-27 16:04:52,660 - INFO - Lens Position: 3.700000047683716
+2024-05-27 16:04:52,669 - INFO - Lens Position: 3.5999999046325684
+2024-05-27 16:04:52,691 - INFO - Lens Position: 3.299999952316284
+2024-05-27 16:04:52,701 - INFO - Lens Position: 3.200000047683716
+2024-05-27 16:04:52,713 - INFO - Lens Position: 3.200000047683716
+2024-05-27 16:04:52,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:52,722 - INFO - Lens Position: 2.9000000953674316
+2024-05-27 16:04:52,735 - INFO - Lens Position: 2.700000047683716
+2024-05-27 16:04:52,741 - INFO - Lens Position: 2.5999999046325684
+2024-05-27 16:04:52,754 - INFO - Lens Position: 2.5999999046325684
+2024-05-27 16:04:52,770 - INFO - Lens Position: 2.4000000953674316
+2024-05-27 16:04:52,792 - INFO - Lens Position: 2.200000047683716
+2024-05-27 16:04:52,808 - INFO - Lens Position: 2.0999999046325684
+2024-05-27 16:04:52,817 - INFO - Lens Position: 2.0999999046325684
+2024-05-27 16:04:52,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:52,833 - INFO - Lens Position: 2.0
+2024-05-27 16:04:52,841 - INFO - Lens Position: 1.899999976158142
+2024-05-27 16:04:52,857 - INFO - Lens Position: 1.7999999523162842
+2024-05-27 16:04:52,866 - INFO - Lens Position: 1.7000000476837158
+2024-05-27 16:04:52,873 - INFO - Lens Position: 1.600000023841858
+2024-05-27 16:04:52,881 - INFO - Lens Position: 1.600000023841858
+2024-05-27 16:04:52,897 - INFO - Lens Position: 1.5
+2024-05-27 16:04:52,905 - INFO - Lens Position: 1.399999976158142
+2024-05-27 16:04:52,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:52,923 - INFO - Lens Position: 1.100000023841858
+2024-05-27 16:04:52,945 - INFO - Lens Position: 1.0
+2024-05-27 16:04:52,969 - INFO - Lens Position: 0.8999999761581421
+2024-05-27 16:04:53,001 - INFO - Lens Position: 0.699999988079071
+2024-05-27 16:04:53,017 - INFO - Lens Position: 0.699999988079071
+2024-05-27 16:04:53,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:53,041 - INFO - Lens Position: 0.6000000238418579
+2024-05-27 16:04:53,073 - INFO - Lens Position: 0.4000000059604645
+2024-05-27 16:04:53,090 - INFO - Lens Position: 0.4000000059604645
+2024-05-27 16:04:53,106 - INFO - Lens Position: 0.30000001192092896
+2024-05-27 16:04:53,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:53,138 - INFO - Lens Position: 0.20000000298023224
+2024-05-27 16:04:53,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:53,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:53,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:53,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:53,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:53,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:53,824 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:53,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:54,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:54,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:54,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:54,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:54,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:54,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:54,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:54,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:54,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:54,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:55,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:55,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:55,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:55,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:55,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:55,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:55,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:55,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:55,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:55,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:56,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:56,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:56,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:56,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:56,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:56,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:56,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:56,728 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:56,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:56,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:57,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:57,120 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:57,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:57,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:57,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:57,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:57,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:57,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:57,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:57,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:58,020 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:58,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:58,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:58,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:58,420 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:58,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:58,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:58,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:58,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:58,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:59,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:59,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:59,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:59,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:59,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:59,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:59,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:59,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:59,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:04:59,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:00,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:00,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:00,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:00,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:00,423 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:00,523 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:00,623 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:00,723 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:00,823 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:00,923 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:01,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:01,123 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:01,223 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:01,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:01,423 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:01,523 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:01,632 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:01,723 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:01,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:01,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:02,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:02,124 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:02,225 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:02,324 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:02,424 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:02,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:02,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:02,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:02,823 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:02,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:03,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:03,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:03,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:03,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:03,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:03,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:03,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:03,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:03,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:03,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:04,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:04,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:04,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:04,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:04,424 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:04,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:04,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:04,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:04,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:04,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:05,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:05,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:05,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:05,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:05,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:05,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:05,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:05,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:05,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:05,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:06,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:06,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:06,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:06,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:06,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:06,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:06,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:06,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:06,820 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:06,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:07,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:07,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:07,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:07,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:07,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:07,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:07,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:07,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:07,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:07,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:08,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:08,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:08,224 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:08,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:08,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:08,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:08,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:08,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:08,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:08,923 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:09,023 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:09,123 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:09,223 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:09,323 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:09,423 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:09,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:09,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:09,723 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:09,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:09,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:10,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:10,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:10,225 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:10,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:10,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:10,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:10,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:10,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:10,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:10,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:11,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:11,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:11,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:11,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:11,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:11,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:11,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:11,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:11,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:11,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:12,020 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:12,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:12,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:12,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:12,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:12,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:12,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:12,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:12,831 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:12,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:13,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:13,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:13,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:13,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:13,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:13,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:13,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:13,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:13,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:13,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:14,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:14,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:14,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:14,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:14,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:14,530 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:14,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:14,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:14,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:14,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:15,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:15,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:15,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:15,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:15,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:15,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:15,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:15,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:15,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:15,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:16,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:16,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:16,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:16,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:16,428 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:16,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:16,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:16,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:16,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:16,924 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:17,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:17,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:17,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:17,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:17,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:17,523 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:17,623 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:17,723 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:17,823 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:17,923 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:18,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:18,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:18,229 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:18,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:18,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:18,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:18,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:18,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:18,826 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:18,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:19,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:19,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:19,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:19,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:19,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:19,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:19,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:19,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:19,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:19,924 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:20,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:20,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:20,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:20,323 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:20,423 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:20,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:20,624 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:20,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:20,823 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:20,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:21,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:21,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:21,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:21,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:21,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:21,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:21,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:21,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:21,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:21,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:22,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:22,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:22,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:22,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:22,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:22,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:22,630 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:22,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:22,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:22,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:23,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:23,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:23,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:23,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:23,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:23,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:23,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:23,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:23,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:23,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:24,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:24,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:24,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:24,332 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:24,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:24,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:24,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:24,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:24,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:24,922 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:25,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:25,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:25,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:25,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:25,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:25,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:25,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:25,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:25,822 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:25,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:26,024 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:26,123 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:26,223 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:26,323 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:26,423 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:26,523 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:26,623 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:26,723 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:26,823 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:26,923 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:27,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:27,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:27,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:27,322 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:27,422 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:27,522 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:27,623 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:27,722 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:27,823 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:27,932 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:28,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:28,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:28,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:28,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:28,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:28,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:28,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:28,726 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:28,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:28,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:29,022 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:29,121 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:29,221 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:29,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:29,423 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:29,530 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:29,622 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:29,720 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:29,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:29,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:30,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:30,122 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:30,222 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:30,321 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:30,421 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:30,521 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:30,621 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:30,721 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:30,821 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:30,921 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8
+2024-05-27 16:05:31,021 - INFO - Frame shape: (480, 640, 4), Frame dtype: uint8

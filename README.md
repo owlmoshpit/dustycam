@@ -23,3 +23,4 @@ See install-service.sh
 ## Tips
 
 * activate your virtual environment when bash starts: add this `source /opt/dusty/env/bin/activate` to the end of your `~/.bashrc` file. 
+* copy files from your pi to your computer: `rsync -avz dusty@dusty.local:~/dustycam_images ~/dustycam_images`
